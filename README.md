@@ -22,22 +22,26 @@ git clone https://github.com/deepanshu016/FamilyManagementApp.git
 cd FamilyManagementApp
 ```
 ## Composer Installation
+```bash
 composer install
-
+```
 ## Setup Basic Environment Variable
+```bash
 cp .env.example .env
-
-
 php artisan key:generate
-
+```
 
 
 
 ## DB migration
+```bash
 php artisan migrate
+```
 
 ## RUN APP
+```bash
 php artisan serve
+```
 
 
 
