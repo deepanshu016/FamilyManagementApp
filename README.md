@@ -17,15 +17,17 @@ Follow the steps below to clone and set up the project locally.
 
 Clone this repository using the following command:
 
-
+```bash
 git clone https://github.com/deepanshu016/FamilyManagementApp.git
 cd FamilyManagementApp
-
+```
 ## Composer Installation
 composer install
 
 ## Setup Basic Environment Variable
 cp .env.example .env
+
+
 php artisan key:generate
 
 
