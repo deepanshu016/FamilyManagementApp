@@ -21,11 +21,11 @@ Clone this repository using the following command:
 git clone https://github.com/deepanshu016/FamilyManagementApp.git
 cd FamilyManagementApp
 ```
-## Composer Installation
+### 2. Composer Installation
 ```bash
 composer install
 ```
-## Setup Basic Environment Variable
+### 3.Setup Basic Environment Variable
 ```bash
 cp .env.example .env
 php artisan key:generate
@@ -33,12 +33,12 @@ php artisan key:generate
 
 
 
-## DB migration
+### 4. DB migration
 ```bash
 php artisan migrate
 ```
 
-## RUN APP
+### 5. RUN APP
 ```bash
 php artisan serve
 ```
